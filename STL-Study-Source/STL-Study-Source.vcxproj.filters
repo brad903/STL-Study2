@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="15-16.cpp">
+    <ClCompile Include="15-17(search).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15-16%28equal%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
