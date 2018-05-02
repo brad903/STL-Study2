@@ -39,5 +39,11 @@
     <ClCompile Include="15_23(random_shuffle).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15_24(binary_search).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15_25(lower_bound).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
