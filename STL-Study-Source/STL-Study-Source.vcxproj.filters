@@ -45,5 +45,11 @@
     <ClCompile Include="15_25(lower_bound).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15_26(accumulate).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15_27(inner_product).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
