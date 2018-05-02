@@ -24,5 +24,20 @@
     <ClCompile Include="15_18(copy).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15_19(transform).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15_20(replace).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15_21(fill).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15_22(reverse).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15_23(random_shuffle).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
