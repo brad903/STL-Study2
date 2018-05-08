@@ -10,6 +10,7 @@ public:
 	{
 		for (int i = 0; i < fromId.size(); i++) {
 			int sum = bottles[fromId[i]] + bottles[toId[i]];
+
 			bottles[toId[i]] = min(capacities[toId[i]], sum);
 			bottles[fromId[i]] = sum - bottles[toId[i]];
 		}
