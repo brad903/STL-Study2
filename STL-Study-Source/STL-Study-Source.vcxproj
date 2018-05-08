@@ -139,7 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\STL-Study-Source\KiwiJuiceEasy.cpp" />
     <ClCompile Include="15-16%28equal%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -187,9 +186,10 @@
     <ClCompile Include="15_27(inner_product).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="KiwiJuiceEasy.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\STL-Study-Source\KiwiJuiceEasy.h" />
+    <ClInclude Include="KiwiJuiceEasy.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
