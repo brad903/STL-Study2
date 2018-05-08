@@ -186,12 +186,16 @@
     <ClCompile Include="15_27(inner_product).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="InterestingParty.cpp" />
+    <ClCompile Include="Cryptography.cpp" />
+    <ClCompile Include="InterestingParty.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="KiwiJuiceEasy.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Cryptography.h" />
     <ClInclude Include="InterestingParty.h" />
     <ClInclude Include="KiwiJuiceEasy.h" />
   </ItemGroup>
