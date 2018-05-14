@@ -186,7 +186,10 @@
     <ClCompile Include="15_27(inner_product).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Cryptography.cpp" />
+    <ClCompile Include="Cryptography.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="InterestingDigits.cpp" />
     <ClCompile Include="InterestingParty.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -196,6 +199,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cryptography.h" />
+    <ClInclude Include="InterestingDigits.h" />
     <ClInclude Include="InterestingParty.h" />
     <ClInclude Include="KiwiJuiceEasy.h" />
   </ItemGroup>
