@@ -189,6 +189,7 @@
     <ClCompile Include="Cryptography.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="FriendScore.cpp" />
     <ClCompile Include="InterestingDigits.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -204,6 +205,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cryptography.h" />
+    <ClInclude Include="FriendScore.h" />
     <ClInclude Include="InterestingDigits.h" />
     <ClInclude Include="InterestingParty.h" />
     <ClInclude Include="KiwiJuiceEasy.h" />
