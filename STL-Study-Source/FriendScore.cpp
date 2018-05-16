@@ -1,14 +1,16 @@
-#include "FriendScore.h"
+#include "FriendScore2.h"
 #include <iostream>
 
 int main() {
 	vector<string> friends = {
-		"NYY",
-		"YNY",
-		"YYN"
+		"NYNNN",
+		"YNYNN",
+		"NYNYN",
+		"NNYNY",
+		"NNNYN"
 	};
 
-	FriendScore FS;
+	FriendScore2 FS;
 	cout << FS.highestScore(friends) << '\n';
 
 	return 0;
