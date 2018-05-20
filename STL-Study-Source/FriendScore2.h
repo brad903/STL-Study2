@@ -1,6 +1,6 @@
 #include <string>
 #include <vector>
-#define max(a,b) (a>b)? a:b
+#include <algorithm>
 using namespace std;
 
 class FriendScore2
@@ -8,7 +8,7 @@ class FriendScore2
 public:
 	int highestScore(vector<string> friends) {
 		int ans = 0;
-		int n = friends[0].length();
+		int n = friends.size();
 
 		for (int i = 0; i < n; i++) {
 			int cnt = 0;
@@ -21,7 +21,7 @@ public:
 				}
 				else {
 					for (int k = 0; k < n; k++) {
-						if (friends[i][k] == 'Y' && friends[k][j] == 'Y') {
+						if (friends[j][k] == 'Y' && friends[k][i] == 'Y') {
 							cnt++;
 							//break;
 						}

@@ -3,11 +3,9 @@
 
 int main() {
 	vector<string> friends = {
-		"NYNNN",
-		"YNYNN",
-		"NYNYN",
-		"NNYNY",
-		"NNNYN"
+		"NNN",
+		"NNN",
+		"NNN"
 	};
 
 	FriendScore2 FS;
