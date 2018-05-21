@@ -186,7 +186,9 @@
     <ClCompile Include="15_27(inner_product).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="CrazyBot.cpp" />
+    <ClCompile Include="CrazyBot.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Cryptography.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -202,6 +204,7 @@
     <ClCompile Include="KiwiJuiceEasy.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="NumberMagicEasy.cpp" />
     <ClCompile Include="ThePalindrome.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -214,6 +217,7 @@
     <ClInclude Include="InterestingDigits.h" />
     <ClInclude Include="InterestingParty.h" />
     <ClInclude Include="KiwiJuiceEasy.h" />
+    <ClInclude Include="NumberMagicEasy.h" />
     <ClInclude Include="ThePalindrome.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
