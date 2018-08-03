@@ -1,3 +1,5 @@
+import java.lang.Math;
+
 public class StockHistory {
 
 	public int maximumEarnings(int initialinvestment, int monthlyContribution, String[] stockPrices) {
@@ -47,7 +49,7 @@ public class StockHistory {
 			flag = true;
 		}
 
-		return (int)ans;
+		return (int)Math.round(ans);
 	}
 
 	public static void main(String[] args) {
