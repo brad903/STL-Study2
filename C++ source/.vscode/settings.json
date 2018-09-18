@@ -18,6 +18,12 @@
         "iosfwd": "cpp",
         "__locale": "cpp",
         "__string": "cpp",
-        "__bit_reference": "cpp"
+        "__bit_reference": "cpp",
+        "memory": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "deque": "cpp",
+        "queue": "cpp",
+        "locale": "cpp"
     }
 }
