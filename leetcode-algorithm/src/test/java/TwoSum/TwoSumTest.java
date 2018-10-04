@@ -1,3 +1,6 @@
+package TwoSum;
+
+import TwoSum.TwoSum;
 import org.junit.Test;
 
 import java.util.ArrayList;
