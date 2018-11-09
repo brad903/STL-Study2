@@ -89,4 +89,34 @@ public class SolutionTest {
     public void test12() {
         assertThat(problem.myAtoi("010")).isEqualTo(10);
     }
+
+    @Test
+    public void test13() {
+        assertThat(problem.myAtoi("0-1")).isEqualTo(0);
+    }
+
+    @Test
+    public void test14() {
+        assertThat(problem.myAtoi("-5-")).isEqualTo(-5);
+    }
+
+    @Test
+    public void test15() {
+        assertThat(problem.myAtoi("")).isEqualTo(0);
+    }
+
+    @Test
+    public void test16() {
+        assertThat(problem.myAtoi(" ")).isEqualTo(0);
+    }
+
+    @Test
+    public void test17() {
+        assertThat(problem.myAtoi("3.14159")).isEqualTo(3);
+    }
+
+    @Test
+    public void test18() {
+        assertThat(problem.myAtoi("123-")).isEqualTo(123);
+    }
 }
