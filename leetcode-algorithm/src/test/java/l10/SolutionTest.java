@@ -19,6 +19,7 @@ public class SolutionTest {
     public void test2() {
         String s = "aa";
         String p = "a*";
+
         assertThat(solution.isMatch(s, p)).isEqualTo(true);
     }
 
@@ -47,6 +48,6 @@ public class SolutionTest {
     public void test6() {
         String s = "miss";
         String p = "....";
-        assertThat(solution.isMatch(s, p)).isEqualTo(false);
+        assertThat(solution.isMatch(s, p)).isEqualTo(true);
     }
 }
