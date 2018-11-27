@@ -1,9 +1,7 @@
 package l11;
 
-import l10.Solution2;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class SolutionTest {
