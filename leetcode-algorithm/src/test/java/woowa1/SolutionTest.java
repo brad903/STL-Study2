@@ -26,4 +26,9 @@ public class SolutionTest {
     public void test() {
         assertThat(problem.solution("011100")).isEqualTo(7);
     }
+
+    @Test
+    public void test2() {
+        assertThat(problem.solution("010000")).isEqualTo(5);  // 16 - 8 - 4 - 2 - 1 - 0
+    }
 }
