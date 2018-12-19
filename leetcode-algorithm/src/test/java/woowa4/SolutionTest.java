@@ -14,4 +14,11 @@ public class SolutionTest {
         int X = 15;
         assertThat(problem.solution(A, X)).isEqualTo(3);
     }
+
+    @Test
+    public void test2() {
+        int[] A = {1, 3, 4, 8, 10, 13, 15};
+        int X = 13;
+        assertThat(problem.solution(A, X)).isEqualTo(5);
+    }
 }

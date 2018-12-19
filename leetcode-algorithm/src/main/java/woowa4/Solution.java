@@ -10,10 +10,10 @@ public class Solution {
         int r = N - 1;
         while (l < r) {
             int m = (l + r) / 2;
-            if (A[m] > X) {
-                r = m - 1;
+            if (A[m] >= X) {  // 고친 부분
+                r = m;  // 고친 부분
             } else {
-                l = m;
+                l = m + 1;  // 고친 부분
             }
         }
         if (A[l] == X) {
