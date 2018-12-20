@@ -21,4 +21,14 @@ public class SolutionTest {
         int X = 13;
         assertThat(problem.solution(A, X)).isEqualTo(5);
     }
+
+    @Test
+    public void test3() {
+        int[] A = {1, 3, 4, 8, 10, 13, 15};
+        for(int i = 0; i < 16; i++){
+            System.out.println("i : " + i);
+            System.out.println(problem.solution(A, i));
+        }
+        System.out.println();
+    }
 }

@@ -58,7 +58,7 @@ public class Solution {
         StringBuilder sb = new StringBuilder();
         int i = 0;
         while(i < newDataList.size() - 1) {
-            sb.append(newDataList.get(i).newName + newLine);
+            sb.append(newDataList.get(i).newName).append(newLine);
             i++;
         }
         sb.append(newDataList.get(i).newName);
